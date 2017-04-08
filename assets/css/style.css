@@ -427,14 +427,14 @@ header {
     font-size:16px;
     line-height:23px;
     text-align:left;
-    color:#888888;
+    color: #888888;
     background: #efe07a;
-     overflow: auto;
+     /*overflow: auto;*/
 }
 
 .aboutMepic img{
     /*float: right;*/
-    overflow: auto;
+    /*overflow: auto;*/
     border: 3px solid #af48aa;
     width: 45%;
   max-width: 350px; 
