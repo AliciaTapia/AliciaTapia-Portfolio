@@ -82,7 +82,7 @@ h1 {
     font-family: 'Amatic SC';
     font-size:55px;
     line-height:60px;
-    color:#D56724;
+    color:#af48aa;
 }
 
 h2 {
@@ -348,7 +348,7 @@ header {
     width:122px;
     height:100px;
     text-align:center;
-    padding-top:26px;
+    padding-top:20px;
     margin:0px auto;
     -moz-border-radius: 56px;
     -webkit-border-radius: 56px;
@@ -357,8 +357,9 @@ header {
 
 .servicesCircle img {
     /*las fotos de mis competencias*/
-    width:73.2%;
+    width:70.2%;
     max-width:82px;
+   
 }
 
 .servicesTitle {
@@ -367,6 +368,7 @@ header {
     text-transform:uppercase;
     letter-spacing:1px;
 }
+
 
 
 /*LAS RAYITAS DE DIVISION ABAJO DE LOS HTML & JAVASCR*/
@@ -417,22 +419,25 @@ header {
 
 .aboutText {
     float:left;
-    width:46%;
-    max-width:500px;
+    width:70%%;
+    max-width:600px;
     padding:15px 1% 50px 1%;
     margin-left: 2%;
+     font-family: 'Raleway', sans-serif;
     font-size:16px;
     line-height:23px;
     text-align:left;
     color:#888888;
     background: #efe07a;
+     overflow: auto;
 }
 
 .aboutMepic img{
-    float: center;
-    border: 3px solid #D56724;
-    width: 35%;
-  max-width: 300px; 
+    /*float: right;*/
+    overflow: auto;
+    border: 3px solid #af48aa;
+    width: 45%;
+  max-width: 350px; 
   border-radius: 5px;
   margin-top: 5%;
   margin-left: 2%;
@@ -473,7 +478,7 @@ header {
     text-align:center;
 }
 .popUpTitle {
-    color:#d76713;
+    color:#af48aa;
     font-size:32px;
     line-height:35px;
     margin-bottom:10px;
