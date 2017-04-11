@@ -89,12 +89,23 @@
         $(this).addClass("fadeIn");
       };
     });
-  })
+  });
 
+var settings = {
+  "async": true,
+  "crossDomain": true,
+  "url": "https://api.sparkpost.com/api/v1/transmissions",
+  "method": "POST",
+  "headers": {
+    "content-type": "application/json",
+    "authorization": "fd6bcd8072c7a205ad8550f3ad0604e89e988034",
+    "cache-control": "no-cache",
+    "postman-token": "b1e4bebf-1c1a-c047-c28f-bfe4f12711a8"
+  },
+  "processData": false,
+  "data": "{\n    \"options\": {\n      \"sandbox\": true\n    },\n    \"content\": {\n      \"from\": \"sandbox@sparkpostbox.com\",\n      \"subject\": \"Thundercats are GO!!!\",\n      \"text\": \"Sword of Omens, give me sight BEYOND sight\"\n    },\n    \"recipients\": [{ \"address\": \"alicia.tapia@gmail.com\" }]\n  }"
+}
 
-
-
-// 
-// 
-
-
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});
